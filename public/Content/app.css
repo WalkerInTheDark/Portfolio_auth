@@ -1,0 +1,346 @@
+/* .a-link {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  } */
+
+
+
+
+
+
+  /* custom css*/
+
+/* app.css, Egor, Student # 301179880, 10/15/2022 */
+
+/* stylesheet for website text*/
+.txt{
+  width: calc(3vh - 2vh) !important;
+  display: inline !important;
+} 
+
+/* index Mission Statement text */
+#ms{
+padding-left: 1em;
+padding-right: 1em;
+}
+
+/* stylesheet for home index image*/
+.homeImg{
+  width: calc(50% + 30%) !important;
+}
+
+/* stylesheet for fixed bottom*/
+.fixed-bottom{
+  height: 3.2em !important;
+}
+
+/*skills Programming title*/
+#progSk{
+  margin-left: 0.5em !important;
+}
+
+/* stylesheet for meters skills page */
+meter{
+  width: 8em;  
+} 
+
+/* skills label for meters Programming */
+#meterTxt{
+  margin-left: 0.70em !important;
+  width: calc(3vh - 2vh);
+}
+
+/* meters for Programming below */
+#html{
+  margin-left: 1.78em !important;
+}
+
+#css{
+  margin-left: 2.7em !important;
+}
+
+#EJS{
+  margin-left: 0.155em !important;
+}
+
+#cSharp{
+  margin-left: 3.1em !important;
+}
+
+/* Language title text*/
+#langSk{
+ position: relative;
+ float: right;
+ display: inline;
+ margin-right: 0.5em !important;
+ margin-top: -7.61em;
+}
+
+/* Language meter labels text */
+.txt2{
+width: calc(3vh - 2vh) !important;
+display: inline-block !important;
+margin-top: -10em;
+} 
+
+/*russian Language text */
+#russ{
+  float: right;
+  margin-right: 13.4em;
+  margin-top: -7.51em;
+}
+
+/* russian Language meter */
+#rus{
+  float: right ;
+  margin-right: 0.5em !important;
+  margin-top: -7.1em;
+}
+
+/*English Language text*/
+#engl{
+ float: right; 
+ margin-right: 13.4em;
+ margin-top: -7.39em;
+}
+
+/* English Language meter*/
+#eng{
+  float: right;
+  margin-right: 0.5em !important;
+  margin-top: -7.1em;
+} 
+
+/* german Language label*/
+#ger{
+  float: right; 
+  margin-right: 13.4em;
+  margin-top: -7.39em;
+}
+
+/* german Language meter */
+#de{
+  float: right;
+  margin-right: 0.5em !important;
+  margin-top: -7.1em;
+}
+
+/* Spanish Language label */
+#sp{
+  float: right; 
+  margin-right: 13.4em;
+  margin-top: -7.39em;
+}
+
+/* Spanish Language meter */
+#spsh{
+  float: right;
+  margin-right: 0.5em !important;
+  margin-top: -7.1em;
+}
+
+/*Japanese Language label */
+#ja{
+  float: right; 
+  margin-right: 13.4em;
+  margin-top: -7.39em;
+}
+
+/*Japanese Language meter */
+#jap{
+  float: right;
+  margin-right: 0.5em !important;
+  margin-top: -7.1em;
+}
+
+/* skills page hobbies */
+.hobby{
+  display: inline !important;
+  line-height: 2.5em;
+  background-color: #212529;
+  border: 1px solid #212529;
+  border-radius: 15px !important;
+  color: white;
+ padding: 0.31em 2em 0.61em 2em !important;
+ margin-left: calc(1.5em - 10px) !important;
+ padding-bottom: 10em;
+}
+
+/* about page image */
+.aboutImg {
+  width: 40% !important;
+}
+
+/* Canadian flag for text about page*/
+#flagImg{
+  float: left;
+  margin-top: 5px;
+  margin-left: 0.8em;
+  width: 13.5%;
+  padding-right: 1em;
+}
+
+/* about page, about me text */
+#aboutMe {
+text-align: justify;
+  font-size: 1em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+}
+
+/*about page redirect to skills and contact pages text */
+.aboutHref{
+  text-decoration: none;
+  font-size: 1em;
+}
+
+/* about page redirect to skills page text hover pseudo */
+.aboutHref:hover{
+  text-decoration: underline;
+  font-size: 1em;
+}
+
+/* projects page, projects images */
+.work_img{
+  margin-top: 2.5em;
+  display: inline;
+  width: 21em;
+ margin-left: 2.5em;
+ box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+ rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+/* projects page, project #4 & #2 image */
+.work4_2_img{
+ display: inline;
+ width: 21em;
+ margin-left: 2.5em;
+ margin-top: 2.5em;
+ box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+ rgb(255, 85, 85) 0px 0px 0px 14.2px;
+}
+
+/* projects page, main project image */
+#workMain_img{
+  width: 21em;
+  margin-left: 2.5em; 
+  margin-top: 2.5em;
+  margin-bottom: 5em;
+ box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+ rgb(255, 85, 85) 0px 0px 0px 14.2px;
+}
+
+/* contact form div */
+.contact-form {
+  position: relative;
+} 
+
+/* main contact form, contact page */
+form {
+  padding: 2.3rem 2.2rem;
+  z-index: 10;
+  overflow: hidden;
+  position: relative;
+} 
+
+  /* contact form title */
+.title {
+  color: black;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.7rem;
+}
+
+/* input containers, contact page */
+.input-container {
+  position: relative;
+  margin: 1rem 0;
+}
+
+/* inputs, contact page */
+.input {
+  width: 100%;
+  outline: none;
+ border: 2px solid black;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color: black;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  transition: 0.3s;
+} 
+
+/* textarea input, contact page */
+textarea.input {
+  padding: 0.8rem 1.2rem;
+  min-height: 150px;
+  border-radius: 22px;
+  resize: none;
+  overflow-y: auto;
+}
+
+/* input container label */
+.input-container label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  padding: 0 0.4rem;
+} 
+
+/* submit button for contact form */
+.btn {
+  padding: 0.6rem 1.3rem;
+  background-color: #fff;
+  border: 2px solid black;
+  font-size: 0.95rem;
+  color: black;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+}
+
+.btn:hover {
+   background-color: transparent; 
+  color: #fff; 
+  font-weight: 700;
+}
+
+/*title web dev, services page */
+#webDev{
+  margin-left: 0.5em;
+}
+
+/* web dev services list */
+#WebDevList{
+  margin-left: 0.2em;
+}
+
+/*title soft dev, services page */
+#softDev{
+  float: right;
+  margin-right: 0.5em !important;
+  margin-top: -7.3em;
+}
+
+/* soft dev services list */
+#softDevList{
+  float: right;
+  margin-right: 0.718em !important;
+  margin-top: -7.1em;
+}
+
+/* href to projects page */
+#redirect2Proj{
+  text-decoration: none;
+}
+
+#redirect2Proj:hover{
+  font-size:large;
+}

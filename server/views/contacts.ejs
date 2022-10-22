@@ -1,0 +1,102 @@
+<%- include partials/header.ejs%>
+<%- include partials/main_nav.ejs%>
+
+<!-- <main class="container bg-light text-dark p-5">
+  <div class="container bg-light p-5">
+  <h5 class="display-4">You can contact me through email or by submitting the following form</h1>
+  <div class="card">
+  <div class="card-body">
+    Email: awasjomail@gmail.com
+  </div>
+</div>
+<br><br><br><br>
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" placeholder="first name">
+  <label for="floatingInput">First Name</label>
+</div>
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" placeholder="last name">
+  <label for="floatingInput">Last Name</label>
+</div>
+<div class="form-floating mb-3">
+  <input type="tel" class="form-control" id="floatingInput" placeholder="667-788-9966">
+  <label for="floatingInput">Phone Number</label>
+</div>
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Email address</label>
+</div>
+<div class="form-floating mb-3">
+  <textarea type="text" class="form-control" id="floatingInput" placeholder="message..."></textarea>
+  <label for="floatingInput">Message...</label>
+</div>
+<button type="submit" class="btn btn-primary"><i class="fas fa-edit"></i>Submit</button>
+<a href="home" class="btn btn-warning"><i class="fas fa-undo"></i>Cancel</a>
+  </div>
+</main> -->
+
+
+
+
+
+<!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> -->
+  
+<br>
+ <h1>&nbsp;<%= title %></h1>
+  <br>
+
+  <!-- my contacts-->
+<center><p id="contact-me-anch">Contact me using the following details: <br><br>My email: <strong>eshabalk@my.centennialcollege.ca</strong></b> <br><p>or</p></p></center>
+
+  <!-- contact form-->
+<div class="contact-form">
+   <form action="/" autocomplete="off">
+     <h3 class="title">Send me a massage</h3>
+      <div class="input-container">
+       <input type="text" name="fname" placeholder="First name" id="fname" class="input" />
+         <label for="fname"></label>
+     </div>
+     <div class="input-container">
+      <input type="text" name="lname" placeholder="Last name" id="lname" class="input" />
+     </div>
+      <div class="input-container">
+       <input type="email" placeholder="E-mail" name="email" id="email" class="input" />
+      </div>
+     <div class="input-container">
+       <input type="tel" placeholder="+1xxxxxxxxxx" pattern="[+,0-9]{3}[0-9]{4}[0-9]{5}" name="phone" id="phone" class="input" />
+     </div>
+      <div class="input-container textarea">
+       <textarea name="message" placeholder="Message" id="msg" class="input"></textarea>
+      </div>
+     <input onclick="sConsole();"  type="submit" value="Send" class="btn"/>
+   </form>
+ </div>
+  </div>
+   </div>
+<br>
+  <br>
+
+  <!-- parse user input from contact form and display it in console -->
+<script>function sConsole() {
+   console.log("Form user input");
+    console.log("---------------");
+   var data = document.getElementById("fname");
+    console.log("Name: " + data.value);
+   var data2 = document.getElementById("lname");
+    console.log("Name: " + data2.value);
+   var data3 = document.getElementById("email");
+    console.log("E-mail: " + data3.value);
+   var data4 = document.getElementById("phone");
+    console.log("Phone: " + data4.value);
+   var data5 = document.getElementById("msg");
+    console.log("Message: " + data5.value);
+ }</script>
+
+
+
+
+
+
+<%- include partials/bottom_nav.ejs%>
+
+<%- include partials/footer.ejs%>
